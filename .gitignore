@@ -39,9 +39,9 @@ checkpoint
 model.ckpt*
 events.out.tfevents.*
 
-# Exported models (keep only TFLite)
-exported_model/
-!exported_model/saved_model/
+# Exported models - Keep SavedModel and pipeline.config
+# excluded_model/checkpoint/
+# Keep the saved_model directory for deployment
 # Exclude TensorFlow models directory (too large)
 models/
 
