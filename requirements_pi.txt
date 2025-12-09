@@ -1,0 +1,26 @@
+# Requirements for Raspberry Pi 4 Deployment
+# Python 3.9+ recommended
+
+# TensorFlow Lite (lightweight for Raspberry Pi)
+tensorflow==2.15.0
+
+# Computer Vision
+opencv-python==4.8.1.78
+
+# Flask for web streaming
+Flask==3.0.0
+
+# NumPy (required by TensorFlow and OpenCV)
+numpy==1.24.3
+
+# GPIO control for Raspberry Pi
+RPi.GPIO==0.7.1
+
+# AUPP Robot library
+# Install separately: pip install auppbot
+# Or if not available, use generic serial library:
+# pyserial==3.5
+
+# Optional: For better performance
+# Uncomment if needed:
+# pillow==10.1.0

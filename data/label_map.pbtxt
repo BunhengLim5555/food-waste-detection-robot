@@ -1,0 +1,16 @@
+item {
+    id: 1
+    name: 'Watermelon rind'
+}
+item {
+    id: 2
+    name: 'Apple core'
+}
+item {
+    id: 3
+    name: 'fish'
+}
+item {
+    id: 4
+    name: 'Egg shell'
+}

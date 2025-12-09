@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+test_env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# TensorFlow / Training outputs
+training/*/
+!training/*.config
+checkpoint
+*.ckpt*
+*.data-*
+*.index
+*.meta
+model.ckpt*
+events.out.tfevents.*
+
+# Exported models (keep only TFLite)
+exported_model/
+!exported_model/saved_model/
+# Exclude TensorFlow models directory (too large)
+models/
+
+# Large files
+*.deb
+cudnn-*.deb
+cuda-keyring*.deb
+
+# Temporary files
+*.log
+*.tmp
+nul
+*.pyc
+.cache/
+
+# Screenshots and test images
+detection_screenshot_*.jpg
+*.png
+*.jpg
+!data/*.jpg
+!data/*.png
+
+# TFRecords are large but keep them for dataset
+# Uncomment if you want to exclude them:
+# *.tfrecord
+
+# OS files
+Thumbs.db
