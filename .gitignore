@@ -28,16 +28,19 @@ test_env/
 .ipynb_checkpoints
 *.ipynb
 
-# TensorFlow / Training outputs
+# TensorFlow / Training outputs (but keep exported SavedModel)
 training/*/
 !training/*.config
 checkpoint
 *.ckpt*
-*.data-*
+*.ckpt.data-*
 *.index
 *.meta
 model.ckpt*
 events.out.tfevents.*
+
+# Allow SavedModel variables
+!exported_model/saved_model/variables/*
 
 # Exported models - Keep SavedModel and pipeline.config
 # excluded_model/checkpoint/
