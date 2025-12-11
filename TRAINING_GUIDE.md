@@ -278,13 +278,3 @@ After training, you should achieve:
 | `scripts/verify_tfrecord.py` | Verification script |
 
 ---
-
-## ❓ Need Help?
-
-Use Claude Code in VS Code to:
-1. Debug any errors
-2. Update paths in config files
-3. Create visualization scripts
-4. Help with Raspberry Pi deployment
-
-Good luck with your project! 🤖
